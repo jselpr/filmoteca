@@ -12,6 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    UAMasterViewController *myViewController = (UAMasterViewController *)navigationController.topViewController;
+    [self setMasterview:myViewController];
+
     // Override point for customization after application launch.
     return YES;
 }
@@ -26,6 +30,13 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    BOOL result = [self.masterview save];
+    if (result) {
+        NSLog(@"Datos salvados correctamente....");
+    } else {
+        NSLog(@"Se produjo un error al salvar los datos");
+    }
+
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application

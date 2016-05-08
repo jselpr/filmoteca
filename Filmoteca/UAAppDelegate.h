@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UAMasterViewController.h"
 
 @interface UAAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) UAMasterViewController *masterview;
 @end

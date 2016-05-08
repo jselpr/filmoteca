@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		336E4BE61CC8E06500D69763 /* texto2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 336E4BE51CC8E06500D69763 /* texto2.txt */; };
+		336E4BE81CC8E0A300D69763 /* resplandor-cumple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 336E4BE71CC8E0A300D69763 /* resplandor-cumple.jpg */; };
+		336E4BEA1CC8E45A00D69763 /* senales_del_futuro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 336E4BE91CC8E45A00D69763 /* senales_del_futuro.jpg */; };
+		336E4BEC1CC8E52400D69763 /* bigtmp_938.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 336E4BEB1CC8E52400D69763 /* bigtmp_938.jpg */; };
+		336E4BF51CC93C2400D69763 /* UAPortadaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336E4BF41CC93C2400D69763 /* UAPortadaViewController.m */; };
+		336E4BF81CCCFA9100D69763 /* UASwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 336E4BF71CCCFA9100D69763 /* UASwitch.m */; };
 		3372A9CA1CB266B5006223B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3372A9C91CB266B5006223B8 /* Foundation.framework */; };
 		3372A9CC1CB266B5006223B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3372A9CB1CB266B5006223B8 /* CoreGraphics.framework */; };
 		3372A9CE1CB266B5006223B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3372A9CD1CB266B5006223B8 /* UIKit.framework */; };
@@ -22,6 +28,8 @@
 		3372A9EE1CB266B5006223B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3372A9CD1CB266B5006223B8 /* UIKit.framework */; };
 		3372A9F61CB266B5006223B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3372A9F41CB266B5006223B8 /* InfoPlist.strings */; };
 		3372A9F81CB266B5006223B8 /* FilmotecaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372A9F71CB266B5006223B8 /* FilmotecaTests.m */; };
+		3372AA051CB51B6D006223B8 /* UAPelicula.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372AA041CB51B6D006223B8 /* UAPelicula.m */; };
+		3372AA071CB5AD27006223B8 /* texto1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3372AA061CB5AD27006223B8 /* texto1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		336E4BE51CC8E06500D69763 /* texto2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = texto2.txt; sourceTree = "<group>"; };
+		336E4BE71CC8E0A300D69763 /* resplandor-cumple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "resplandor-cumple.jpg"; sourceTree = "<group>"; };
+		336E4BE91CC8E45A00D69763 /* senales_del_futuro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = senales_del_futuro.jpg; path = ../../../../../Downloads/senales_del_futuro.jpg; sourceTree = "<group>"; };
+		336E4BEB1CC8E52400D69763 /* bigtmp_938.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bigtmp_938.jpg; path = ../../../../../Downloads/bigtmp_938.jpg; sourceTree = "<group>"; };
+		336E4BF31CC93C2400D69763 /* UAPortadaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPortadaViewController.h; sourceTree = "<group>"; };
+		336E4BF41CC93C2400D69763 /* UAPortadaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAPortadaViewController.m; sourceTree = "<group>"; };
+		336E4BF61CCCFA9100D69763 /* UASwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UASwitch.h; path = Filmoteca/UASwitch.h; sourceTree = "<group>"; };
+		336E4BF71CCCFA9100D69763 /* UASwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UASwitch.m; path = Filmoteca/UASwitch.m; sourceTree = "<group>"; };
 		3372A9C61CB266B5006223B8 /* Filmoteca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filmoteca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3372A9C91CB266B5006223B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3372A9CB1CB266B5006223B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +72,11 @@
 		3372A9F31CB266B5006223B8 /* FilmotecaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FilmotecaTests-Info.plist"; sourceTree = "<group>"; };
 		3372A9F51CB266B5006223B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3372A9F71CB266B5006223B8 /* FilmotecaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilmotecaTests.m; sourceTree = "<group>"; };
+		3372AA011CB26DE7006223B8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3372AA021CB26DE7006223B8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3372AA031CB51B6D006223B8 /* UAPelicula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAPelicula.h; sourceTree = "<group>"; };
+		3372AA041CB51B6D006223B8 /* UAPelicula.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAPelicula.m; sourceTree = "<group>"; };
+		3372AA061CB5AD27006223B8 /* texto1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = texto1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +106,8 @@
 		3372A9BD1CB266B5006223B8 = {
 			isa = PBXGroup;
 			children = (
+				336E4BF61CCCFA9100D69763 /* UASwitch.h */,
+				336E4BF71CCCFA9100D69763 /* UASwitch.m */,
 				3372A9CF1CB266B5006223B8 /* Filmoteca */,
 				3372A9F11CB266B5006223B8 /* FilmotecaTests */,
 				3372A9C81CB266B5006223B8 /* Frameworks */,
@@ -115,6 +138,7 @@
 		3372A9CF1CB266B5006223B8 /* Filmoteca */ = {
 			isa = PBXGroup;
 			children = (
+				3372AA0A1CB5AE84006223B8 /* datos */,
 				3372A9D81CB266B5006223B8 /* UAAppDelegate.h */,
 				3372A9D91CB266B5006223B8 /* UAAppDelegate.m */,
 				3372A9DB1CB266B5006223B8 /* Main.storyboard */,
@@ -124,6 +148,11 @@
 				3372A9E21CB266B5006223B8 /* UADetailViewController.m */,
 				3372A9E41CB266B5006223B8 /* Images.xcassets */,
 				3372A9D01CB266B5006223B8 /* Supporting Files */,
+				3372AA031CB51B6D006223B8 /* UAPelicula.h */,
+				3372AA041CB51B6D006223B8 /* UAPelicula.m */,
+				3372AA061CB5AD27006223B8 /* texto1.txt */,
+				336E4BF31CC93C2400D69763 /* UAPortadaViewController.h */,
+				336E4BF41CC93C2400D69763 /* UAPortadaViewController.m */,
 			);
 			path = Filmoteca;
 			sourceTree = "<group>";
@@ -155,6 +184,17 @@
 				3372A9F41CB266B5006223B8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3372AA0A1CB5AE84006223B8 /* datos */ = {
+			isa = PBXGroup;
+			children = (
+				336E4BEB1CC8E52400D69763 /* bigtmp_938.jpg */,
+				336E4BE91CC8E45A00D69763 /* senales_del_futuro.jpg */,
+				336E4BE71CC8E0A300D69763 /* resplandor-cumple.jpg */,
+				336E4BE51CC8E06500D69763 /* texto2.txt */,
+			);
+			path = datos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +257,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 3372A9BD1CB266B5006223B8;
 			productRefGroup = 3372A9C71CB266B5006223B8 /* Products */;
@@ -235,7 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3372A9E51CB266B5006223B8 /* Images.xcassets in Resources */,
+				3372AA071CB5AD27006223B8 /* texto1.txt in Resources */,
+				336E4BEA1CC8E45A00D69763 /* senales_del_futuro.jpg in Resources */,
+				336E4BEC1CC8E52400D69763 /* bigtmp_938.jpg in Resources */,
 				3372A9D41CB266B5006223B8 /* InfoPlist.strings in Resources */,
+				336E4BE81CC8E0A300D69763 /* resplandor-cumple.jpg in Resources */,
+				336E4BE61CC8E06500D69763 /* texto2.txt in Resources */,
 				3372A9DD1CB266B5006223B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +303,11 @@
 			files = (
 				3372A9DA1CB266B5006223B8 /* UAAppDelegate.m in Sources */,
 				3372A9D61CB266B5006223B8 /* main.m in Sources */,
+				336E4BF51CC93C2400D69763 /* UAPortadaViewController.m in Sources */,
 				3372A9E01CB266B5006223B8 /* UAMasterViewController.m in Sources */,
 				3372A9E31CB266B5006223B8 /* UADetailViewController.m in Sources */,
+				3372AA051CB51B6D006223B8 /* UAPelicula.m in Sources */,
+				336E4BF81CCCFA9100D69763 /* UASwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +334,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3372A9D31CB266B5006223B8 /* en */,
+				3372AA011CB26DE7006223B8 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -301,6 +351,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3372A9F51CB266B5006223B8 /* en */,
+				3372AA021CB26DE7006223B8 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -463,6 +514,7 @@
 				3372A9FD1CB266B5006223B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3372A9FE1CB266B5006223B8 /* Build configuration list for PBXNativeTarget "FilmotecaTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +523,7 @@
 				3372AA001CB266B5006223B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
